@@ -44,7 +44,7 @@ set FLASK_APP=vcftophylogenetic.server
 
 flask run --port=8090
 
-
+This software is depending on ape and phangorn R library for phylogeny maximum likelihood score and parsimony score analysis
 
 ### Interface of gene level phylogenetic tree construction
 <img src="https://user-images.githubusercontent.com/63479459/226978993-dea961dc-425e-4037-be3a-2976a1fd4380.PNG" >
