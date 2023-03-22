@@ -19,6 +19,33 @@ ubuntu virtual environment(if you construct the phylogenetic tree based on seque
 
 ### software setup
 
+git clone "VCFToPhylogenetic depository"
+
+
+data configuration
+
+follow the tutorial to configure the data
+https://divbrowse.readthedocs.io/tutorial.html#
+
+
+cd VCFToPhylogenetic
+
+conda env create -f environment.yml
+
+conda activate divbrowse_dev
+
+cd frontend
+
+npm install
+
+conda activate divbrowse_dev
+
+set FLASK_APP=vcftophylogenetic.server
+
+flask run --port=8090
+
+
+
 
 
 
