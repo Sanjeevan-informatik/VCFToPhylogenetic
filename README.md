@@ -1,5 +1,8 @@
 # Population Genetics: Genotype data-based  Phylogenetic Tree Inference
 
+This project is a part of ipk divbrowse. some of the code is reused from ipk divbrowse project.
+this project was supervised by Patrick Koenig <koenig@ipk-gatersleben.de>
+
 <img src="https://user-images.githubusercontent.com/63479459/226971670-2696be48-4410-4795-bcb9-8e2936595ed6.png" >
 
 ### This figure above illustrates the architecture of phylogenetic trees analysis software models. (VCF file and reference sequence)
@@ -55,4 +58,5 @@ This software is depending on ape and phangorn R library for phylogeny maximum l
 
 ### Phylogenetic tree graph(d3.js)
 <img src="https://user-images.githubusercontent.com/63479459/226979186-8ce89e79-a473-4d66-acc5-c953a927a136.PNG" >
+
 
